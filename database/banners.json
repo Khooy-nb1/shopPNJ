@@ -1,0 +1,35 @@
+[
+  {
+    "_id": "ban-1",
+    "title": "Tuyệt Tác Kim Cương Độc Bản",
+    "subtitle": "Chuẩn Mực Giác Cắt Triple Excellent & Chứng Nhận GIA Quốc Tế",
+    "image": "/images/prod_diamond_round.jpg",
+    "link": "/products?category=kim-cuong-vien",
+    "buttonText": "Khám Phá Kim Cương Viên",
+    "position": "hero",
+    "status": "active",
+    "order": 1
+  },
+  {
+    "_id": "ban-2",
+    "title": "Khoảnh Khắc Cầu Hôn Vĩnh Cửu",
+    "subtitle": "Bộ sưu tập nhẫn đính hôn Solitaire & Halo vàng 18K sang trọng",
+    "image": "/images/prod_solitaire_ring.jpg",
+    "link": "/products?category=nhan-kim-cuong-nu",
+    "buttonText": "Xem Bộ Sưu Tập Nhẫn",
+    "position": "hero",
+    "status": "active",
+    "order": 2
+  },
+  {
+    "_id": "ban-3",
+    "title": "Mùa Cưới Hạnh Phúc & Vu Quy",
+    "subtitle": "Ưu đãi tặng đến 5.000.000 VNĐ cho các cặp nhẫn cưới kỷ vật",
+    "image": "/images/prod_wedding_bands.jpg",
+    "link": "/products?category=trang-suc-cuoi",
+    "buttonText": "Xem Nhẫn Cưới",
+    "position": "hero",
+    "status": "active",
+    "order": 3
+  }
+]

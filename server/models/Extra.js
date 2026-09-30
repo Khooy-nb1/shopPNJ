@@ -1,0 +1,13 @@
+import mongoose from 'mongoose';
+const make=(name,fields)=>mongoose.model(name,new mongoose.Schema({_id:String,...fields},{timestamps:true}));
+export const Session=make('Session',{tokenHash:{type:String,unique:true},userId:String,expiresAt:{type:Date,index:{expires:0}}});
+export const Verification=make('Verification',{target:String,type:String,hash:String,attempts:{type:Number,default:0},expiresAt:{type:Date,index:{expires:0}}});
+export const Banner=make('Banner',{title:String,subtitle:String,image:String,mobileImage:String,link:String,buttonText:String,position:String,status:String,order:Number});
+export const Review=make('Review',{productId:String,userId:String,userName:String,userAvatar:String,rating:{type:Number,min:1,max:5},comment:String,isVerifiedPurchase:Boolean,status:String,reply:String});
+Review.schema.index({productId:1,userId:1},{unique:true});
+export const Audit=make('Audit',{userId:String,action:String,targetId:String,details:mongoose.Schema.Types.Mixed});
+export const StockMove=make('StockMove',{productId:String,variantId:String,quantity:Number,reason:String,userId:String,orderId:String});
+export const Content=make('Content',{kind:String,title:String,excerpt:String,date:String,author:String,category:String,slug:{type:String,unique:true},body:String,image:String,status:String});
+export const ServiceRequest=make('ServiceRequest',{userId:String,orderId:String,type:String,message:String,status:String,response:String});
+export const Notification=make('Notification',{userId:String,title:String,message:String,read:{type:Boolean,default:false}});
+export const Subscriber=make('Subscriber',{email:{type:String,unique:true}});

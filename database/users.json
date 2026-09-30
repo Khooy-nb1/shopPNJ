@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "usr-admin",
+    "name": "Quản Trị Viên 3AE",
+    "email": "admin@3ae.vn",
+    "phone": "0901234567",
+    "address": "Toà nhà 3AE Tower, 128 Nguyễn Trãi, Quận 1, TP. Hồ Chí Minh",
+    "role": "admin",
+    "avatar": "/images/prod_diamond_round.jpg",
+    "createdAt": "2026-01-01T00:00:00Z"
+  },
+  {
+    "_id": "usr-customer-1",
+    "name": "Nguyễn Thuỳ Linh",
+    "email": "linh.nguyen@gmail.com",
+    "phone": "0988776655",
+    "address": "Căn hộ 1804, Vinhomes Golden River, Bến Nghé, Quận 1, TP. Hồ Chí Minh",
+    "role": "customer",
+    "avatar": "/images/prod_diamond_round.jpg",
+    "createdAt": "2026-01-15T08:30:00Z"
+  },
+  {
+    "_id": "usr-customer-2",
+    "name": "Trần Hoàng Nam",
+    "email": "khachhang@gmail.com",
+    "phone": "0912345678",
+    "address": "Biệt thự B2-12, KĐT Ciputra, Tây Hồ, Hà Nội",
+    "role": "customer",
+    "avatar": "/images/prod_diamond_round.jpg",
+    "createdAt": "2026-01-20T10:15:00Z"
+  }
+]
